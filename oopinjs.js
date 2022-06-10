@@ -30,7 +30,7 @@ class Dog extends Animal {
     }
 }
 
-let Tom = new Cat("cat", "Tom", "milk");
+const Tom = new Cat("cat", "Tom", "milk");
 console.log(`${Tom.name} is a ${Tom.type}. ${Tom.name} likes to eat ${Tom.food}, and its sound sounds like a ` + Tom.sound());
 const Rex = new Dog("dog", "Rex", "meat");
 console.log(`${Rex.name} is a ${Rex.type}. ${Rex.name} likes to eat ${Rex.food}, and its sound sounds like a ` + Rex.sound());
